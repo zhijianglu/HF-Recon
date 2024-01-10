@@ -6,7 +6,8 @@ The purpose of this repository is to establish a high-fidelity 3D reconstruction
 
 The article is currently undergoing peer review:
 
-<div align=center><img src="resources/paper.png" style="zoom:20%;" />
+<img src="resources/paper.png" style="max-width: 40%; height: auto; margin: 0 5px;" />
+
 
 ## Reconstruction results
 
@@ -22,7 +23,7 @@ The article is currently undergoing peer review:
 
 | deagon                                                       | deer                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="resources/status.png" style="max-width: 40%; height: auto; margin: 0 5px;" /> | <img src="resources/sofa.png" style="max-width: 40%; height: auto; margin: 0 5px;" /> |
+| <img src="resources/status.png" style="max-width: 30%; height: auto; margin: 0 5px;" /> | <img src="resources/sofa.png" style="max-width: 30%; height: auto; margin: 0 5px;" /> |
 
 ## Requirements
 
@@ -34,15 +35,17 @@ The article is currently undergoing peer review:
 
 ## Preparation 
 
-1.  Install a feature point-based registration algorithm according to [Teaser-pp][https://github.com/MIT-SPARK/TEASER-plusplus]'s guidance, to serve as the initial registration pose for our algorithm.
+- Install a feature point-based registration algorithm according to [Teaser-pp][https://github.com/MIT-SPARK/TEASER-plusplus]'s guidance, to serve as the initial registration pose for our algorithm.
 
-2. Download data from [GoogleDrive](https://drive.google.com/drive/folders/1zLcwRlwguh5txwxgK075HkXIG-hlaE5V?usp=sharing) and place it in the `data` folder.
+- Download data from [GoogleDrive](https://drive.google.com/drive/folders/1zLcwRlwguh5txwxgK075HkXIG-hlaE5V?usp=sharing) and place it in the `data` folder.
 
-3. build project:
+- build project:
 
-   ` mkdir build && cd build `
+  ` mkdir build && cd build `
 
-   `cmake .. && make` 
+  `cmake .. && make`
+
+ 
 
 ## Usage
 

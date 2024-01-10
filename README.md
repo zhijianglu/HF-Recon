@@ -31,11 +31,11 @@ The article is currently undergoing peer review:
 - Eigen3(3.3.4)
 - OpenCV (>4.0)
 - Open3D
-- [Teaser-pp][https://github.com/MIT-SPARK/TEASER-plusplus]
+-  [Teaser-pp](https://github.com/MIT-SPARK/TEASER-plusplus) 
 
 ## Preparation 
 
-- Install a feature point-based registration algorithm according to [Teaser-pp][https://github.com/MIT-SPARK/TEASER-plusplus]'s guidance, to serve as the initial registration pose for our algorithm.
+- Install a feature point-based registration algorithm according to  [Teaser-pp](https://github.com/MIT-SPARK/TEASER-plusplus) 's guidance, to serve as the initial registration pose for our algorithm.
 
 - Download data from [GoogleDrive](https://drive.google.com/drive/folders/1zLcwRlwguh5txwxgK075HkXIG-hlaE5V?usp=sharing) and place it in the `data` folder.
 
@@ -49,7 +49,7 @@ The article is currently undergoing peer review:
 
 ## Usage
 
-1. Firstly, use [Teaser-pp][https://github.com/MIT-SPARK/TEASER-plusplus] to generate the initial pose, which is based on a feature point matching method, allowing for a rough alignment of the point cloud sequence.
+1. Firstly, use [Teaser-pp](https://github.com/MIT-SPARK/TEASER-plusplus) to generate the initial pose, which is based on a feature point matching method, allowing for a rough alignment of the point cloud sequence.
 
    `./teaser_coarse_align ../cfg/simrecon_params.yaml`
 

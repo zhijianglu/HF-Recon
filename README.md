@@ -12,18 +12,17 @@ The article is currently undergoing peer review:
 
 - For simulated data (rendering by Open3D):
 
-  <div style="display: flex; justify-content: center;">
-      <img src="resources/dragon.png" style="max-width: 25%; height: auto; margin: 0 5px;" />
-      <img src="resources/deer.png" style="max-width: 15%; height: auto; margin: 0 5px;" />
-      <img src="resources/vase.png" style="max-width: 15%; height: auto; margin: 0 5px;" />
-  </div>
+  | deagon                                                       | deer                                                         | vase                                                         |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+  | <img src="resources/dragon.png" style="max-width: 40%; height: auto; margin: 0 5px;" /> | <img src="resources/deer.png" style="max-width: 40%; height: auto; margin: 0 5px;" /> | <img src="resources/vase.png" style="max-width: 40%; height: auto; margin: 0 5px;" /> |
+
+  
 
 - For real-world data:
 
-  <div style="display: flex; justify-content: center;">
-      <img src="resources/status.png" style="max-width: 15%; height: auto; margin: 0 5px;" />
-      <img src="resources/sofa.png" style="max-width: 25%; height: auto; margin: 0 5px;" />
-  </div>
+| deagon                                                       | deer                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="resources/status.png" style="max-width: 40%; height: auto; margin: 0 5px;" /> | <img src="resources/sofa.png" style="max-width: 40%; height: auto; margin: 0 5px;" /> |
 
 ## Requirements
 

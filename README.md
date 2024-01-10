@@ -11,19 +11,19 @@ The article is currently undergoing peer review:
 
 ## Reconstruction results
 
-- For simulated data (rendering by Open3D):
+- Results on simulated data (rendering by Open3D):
 
   | dragon                                                       | deer                                                         | vase                                                         |
   | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-  | <img src="resources/dragon.png" style="max-width: 40%; height: auto; margin: 0 5px;" /> | <img src="resources/deer.png" style="max-width: 40%; height: auto; margin: 0 5px;" /> | <img src="resources/vase.png" style="max-width: 40%; height: auto; margin: 0 5px;" /> |
+  | <img src="resources/dragon.png" style="max-width: 30%; height: auto; margin: 0 5px;" /> | <img src="resources/deer.png" style="max-width: 30%; height: auto; margin: 0 5px;" /> | <img src="resources/vase.png" style="max-width: 30%; height: auto; margin: 0 5px;" /> |
 
   
 
-- For real-world data:
+- Results on real-world data:
 
 | Status                                                       | Sofa                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="resources/status.png" style="max-width: 30%; height: auto; margin: 0 5px;" /> | <img src="resources/sofa.png" style="max-width: 30%; height: auto; margin: 0 5px;" /> |
+| <img src="resources/status.png" style="max-width: 20%; height: auto; margin: 0 5px;" /> | <img src="resources/sofa.png" style="max-width: 16%; height: auto; margin: 0 5px;" /> |
 
 ## Requirements
 
@@ -65,15 +65,14 @@ The real-world data is automatically acquired through the omnidirectional collec
 
 
 
-<div align=center><img src="resources/platform.png" style="zoom:30%;" />
+<img src="resources/platform.png" style="max-width: 60%; height: auto; margin: 0 5px;" />
+
 
 
 
 Simulation data is collected using a Kinect camera in the Gazebo platform:
 
-
-<div align=center><img src="resources/gazebo.png" style="zoom:50%;" />
-
+<img src="resources/gazebo.png" style="max-width: 60%; height: auto; margin: 0 5px;" />
 
 
 ## Note.

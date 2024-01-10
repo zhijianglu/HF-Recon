@@ -56,16 +56,16 @@ target_link_libraries(multi_way_align_sim  ${Open3D_LIBRARIES} PoseGraphOpt
         ${OpenCV_LIBRARIES} )
 
 #todo ====================================================================================
-add_executable(sim_post_process
-        app/sim_post_process.cpp
-        src/PairWiseAlign.cpp
-        src/ICP.cpp
-        src/global.cpp
-        src/O3dVis.cpp
-        )
-target_link_libraries(sim_post_process  ${Open3D_LIBRARIES}
-        ${OpenCV_LIBRARIES}
-        )
+#add_executable(sim_post_process
+#        app/sim_post_process.cpp
+#        src/PairWiseAlign.cpp
+#        src/ICP.cpp
+#        src/global.cpp
+#        src/O3dVis.cpp
+#        )
+#target_link_libraries(sim_post_process  ${Open3D_LIBRARIES}
+#        ${OpenCV_LIBRARIES}
+#        )
 
 #align with teaser
 add_executable(teaser_coarse_align app/teaser_coarse_align.cpp

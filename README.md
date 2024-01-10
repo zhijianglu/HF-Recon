@@ -6,7 +6,7 @@ The purpose of this repository is to establish a high-fidelity 3D reconstruction
 
 The article is currently undergoing peer review:
 
-<img src="resources/paper.png" style="max-width: 40%; height: auto; margin: 0 5px;" />
+<img src="resources/paper.png" style="max-width: 20%; height: auto; margin: 0 5px;" />
 
 
 ## Reconstruction results

@@ -13,7 +13,7 @@ The article is currently undergoing peer review:
 
 - For simulated data (rendering by Open3D):
 
-  | deagon                                                       | deer                                                         | vase                                                         |
+  | dragon                                                       | deer                                                         | vase                                                         |
   | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
   | <img src="resources/dragon.png" style="max-width: 40%; height: auto; margin: 0 5px;" /> | <img src="resources/deer.png" style="max-width: 40%; height: auto; margin: 0 5px;" /> | <img src="resources/vase.png" style="max-width: 40%; height: auto; margin: 0 5px;" /> |
 
@@ -21,7 +21,7 @@ The article is currently undergoing peer review:
 
 - For real-world data:
 
-| deagon                                                       | deer                                                         |
+| Status                                                       | Sofa                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <img src="resources/status.png" style="max-width: 30%; height: auto; margin: 0 5px;" /> | <img src="resources/sofa.png" style="max-width: 30%; height: auto; margin: 0 5px;" /> |
 

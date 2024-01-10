@@ -27,7 +27,6 @@ The article is currently undergoing peer review:
 
 ## Requirements
 
-- PCL (>1.10)
 - Eigen3(3.3.4)
 - OpenCV (>4.0)
 - Open3D

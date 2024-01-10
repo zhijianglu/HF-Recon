@@ -26,11 +26,11 @@ set_directory_properties( PROPERTIES COMPILE_DEFINITIONS "")
 # 添加所有源文件，包括头文件和cpp文件
 
 # 生成动态链接库
-add_library(PoseGraphOpt SHARED src/PoseGraphOpt.cpp)
-target_link_libraries(PoseGraphOpt  ${Open3D_LIBRARIES}  )
-set_target_properties(PoseGraphOpt PROPERTIES
-        LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/lib
-        )
+#add_library(PoseGraphOpt SHARED src/PoseGraphOpt.cpp)
+#target_link_libraries(PoseGraphOpt  ${Open3D_LIBRARIES}  )
+#set_target_properties(PoseGraphOpt PROPERTIES
+#        LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/lib
+#        )
 
 set(TEASER_LIB
         teaserpp::teaser_registration

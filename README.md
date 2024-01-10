@@ -36,7 +36,7 @@ The article is currently undergoing peer review:
 
 - Install a feature point-based registration algorithm according to  [Teaser-pp](https://github.com/MIT-SPARK/TEASER-plusplus) 's guidance, to serve as the initial registration pose for our algorithm.
 
-- Download data from [GoogleDrive](https://drive.google.com/drive/folders/1zLcwRlwguh5txwxgK075HkXIG-hlaE5V?usp=sharing) and place it in the `data` folder.
+- Download data from [GoogleDrive](https://drive.google.com/drive/folders/1gQszyUk4JXZ4PIw3B9A9lk6ex4EN6tSz?usp=sharing) and place it in the `data` folder.
 
 - build project:
 
@@ -58,7 +58,7 @@ The article is currently undergoing peer review:
 
 ## Simulation and Real-world Datasets
 
-All dataset can be downloded at [GoogleDrive](https://drive.google.com/drive/folders/1zLcwRlwguh5txwxgK075HkXIG-hlaE5V?usp=sharing)  
+All dataset can be downloded at [GoogleDrive](https://drive.google.com/drive/folders/1gQszyUk4JXZ4PIw3B9A9lk6ex4EN6tSz?usp=sharing).
 
 The real-world data is automatically acquired through the omnidirectional collection platform we designed:
 

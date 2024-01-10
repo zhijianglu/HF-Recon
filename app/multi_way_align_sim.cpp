@@ -303,8 +303,6 @@ align_all(string test_data_root_path, string out_dir)
 }
 
 
-
-
 int
 main(int argc, char *argv[])
 {
@@ -323,6 +321,8 @@ main(int argc, char *argv[])
     }
 
     TicToc timer_global;
+
+
     TicToc timer;
     vector<std::thread> test_threads;
     for (int data_id = 0; data_id < CfgParam.test_data_list.size(); ++data_id)

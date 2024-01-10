@@ -10,11 +10,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 
 find_package(OpenCV 4.4 REQUIRED)
-
-set(PCL_DIR "/home/zjl1/my_prefix/pcl1.10/share/pcl-1.10")
-find_package(PCL  REQUIRED)
 find_package(Open3D REQUIRED)
-
 find_package(teaserpp REQUIRED)
 include_directories(
         ${CMAKE_CURRENT_SOURCE_DIR}/include
@@ -23,7 +19,7 @@ include_directories(
         ${OpenCV_INCLUDE_DIRS}
         ${Open3D_INCLUDE_DIRS}
         )
-link_directories(${PCL_LIBRARY_DIRS})
+#link_directories(${PCL_LIBRARY_DIRS})
 link_directories(lib)
 set_directory_properties( PROPERTIES COMPILE_DEFINITIONS "")
 
@@ -44,7 +40,7 @@ set(TEASER_LIB
 set(CO_LIBS
         ${Open3D_LIBRARIES}
         ${OpenCV_LIBRARIES}
-        ${PCL_LIBRARIES}
+#        ${PCL_LIBRARIES}
         )
 
 #todo ====================================================================================

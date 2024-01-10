@@ -1,4 +1,4 @@
-# Multi-View Point Cloud Registration for High-Fidelity 3D Reconstruction
+# Multi-View Point Cloud Registration and Reconstruction for High-Fidelity Object Modeling
 
 The purpose of this repository is to establish a high-fidelity 3D reconstruction system based on multi-frame point cloud registration. The point cloud data is derived from various viewpoints around the target object, acquired through scanning. The data sources can be depth cameras or LiDAR (Light Detection and Ranging). 
 
@@ -21,7 +21,7 @@ The article is currently undergoing peer review:
 
 - Results on real-world data:
 
-| Status                                                       | Sofa                                                         |
+| Statue                                                       | Sofa                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <img src="resources/status.png" style="max-width: 20%; height: auto; margin: 0 5px;" /> | <img src="resources/sofa.png" style="max-width: 16%; height: auto; margin: 0 5px;" /> |
 
